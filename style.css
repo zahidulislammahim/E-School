@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;  
+    list-style: none;
+    scrollbar-color: #21B573 rgb(255, 255, 255);
+    caret-color: #21B573;
+
+    cursor: url('logo/cursor.png'), auto;
+}
+body a{
+    cursor: url('logo/pointer.png'), auto;
+}
+::selection {
+    background-color: #21B573; 
+    color: #ffffff; 
+}
+.hero_section{
+    height: 576px;
+    background: #F0FFF0;
+}
+.main_menu{
+    padding: 30px 120px 30px 190px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.menus_ul{
+    display: flex;
+    gap: 40px;
+}
+.menu{
+    margin-top: -15px;
+}
+.menu_item{
+    color: rgba(0, 0, 0, 0.674);
+    font-size: 14px;
+    font-weight: 400;
+}
+.menu_item:hover{
+    color: black;
+}
+.menu_button{
+    color: rgba(255, 255, 255, 0.76);
+    background-color: #21B573;
+    border-radius: 33px;
+    padding: 10px 26px;
+}
+.menu_button:hover{
+    background-color: #21b57291;
+    color: rgba(87, 87, 87, 0.534);
+    transition: 0.5s;
+}
+.logo img{
+    width: 195px;
+}
+.logo{
+    margin-right: -100px;
+}
+.main_area{
+    padding: 0px 150px 0px 180px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.hero_image img{
+    width: 520px;
+    height: 340px;
+}
+.hero_text h5{
+   font-size: 16px;
+   font-weight: 400;
+   color: #FD511A;
+   padding-bottom: 15px;
+}
+.hero_text h1{
+    font-size: 45px;
+    font-weight: 900px;
+    padding-bottom: 22px;
+}
+.highlight{
+    color: #21B573;
+}
+.hero_text p{
+    font-size: 14px;
+    font-weight: 400px;
+    color: #6C6B6B;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.button{
+    color: rgba(255, 255, 255, 0.753);
+    background-color:#21B573;
+    border-radius: 33px;
+    padding: 10px 34px;
+    font-size: 15px;
+    font-weight: 500px;
+}
+.button:hover{
+    background-color: #21b57291;
+    color: rgba(87, 87, 87, 0.534);
+    transition: 0.5s;
+}
+.analyse{
+    justify-content: space-between;
+    display: flex;
+    margin: 30px 80px;
+    text-align: center;
+}
+.analyse .box{
+    background-color: #f0fff057;
+    height: 190px;
+    width: 290px;
+    border-radius: 10px;
+    padding: 45px 30px 0px 30px;
+    margin: 15px;
+}
+.analyse img{
+    height: 72px;
+}
+.analyse h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #413960;
+}
+.analyse p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #585859;
+}
+.analyse .box:hover{
+    background-color: white;
+    box-shadow: 0px 14px 30px 0px rgba(189,189,189,0.41);
+    transition:0.5s;
+}
+.course_headline{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    color: #413960;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.course_box .img{
+    margin-top: 5px;
+    width: 20px;
+    margin-bottom: -3px;
+}
+.Main_course{
+    display: flex;
+    margin: 30px 100px;
+
+}
+.course_box{
+    width: 370px;
+    height: 400px;
+    padding: 20px;
+    margin: 10px 12px;
+    border-radius: 20px;
+    box-shadow: 10px 0px 40px 0px rgba(0,0,0,0.1);
+}
+.course_box .mordern_img{
+    transition: all .55s ease-in-out;
+    width: 300px;
+}
+.Modern {
+    overflow: hidden !important;
+    border-radius: 10px;
+    height: 212.14px;
+}
+
+.course_box:hover .mordern_img {
+transform: scale(1.1);
+}
+.course_box:hover .Modern{
+    border-radius: 10px;
+    height: 212px;
+}
+.course_box h1{
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5px 0px 5px 0px;
+}
+.course_box p{
+    font-size: 14px;
+    font-weight: 400px;
+    color: #585859;
+    padding-bottom: 20px;
+}
+.buy_button{
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #21B573;
+    padding: 6px 25px;
+    border-radius: 33px;
+    color: rgba(255, 255, 255, 0.75);
+}
+.buy_button:hover{
+    background-color: #21b57291;
+    color: rgba(87, 87, 87, 0.534);
+    transition: 0.5s;
+}
+
+.course_box .calender{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 40px;
+    color: #585859;
+    font-size: 14px;
+    font-weight:450 ;
+}
+.main_test{
+    margin: 80px 250px 80px 300px;
+}
+.main_test .Test{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+.man_area{
+    margin-top: 50px;
+    display: flex;
+}
+.man_description { 
+    margin-left: 52px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: black;
+}
+.man_area .man_img img{
+    width: 110px;
+}
