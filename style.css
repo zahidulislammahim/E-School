@@ -233,3 +233,40 @@ transform: scale(1.1);
 .man_area .man_img img{
     width: 110px;
 }
+footer{
+    height: 290px;
+    background-color: #282531;
+    color: white;
+    padding-top: 50px;
+}
+.main_footer{
+    display: flex;
+}
+.left_footer{
+    font-size: 14px;
+    font-weight: 300;
+    width: 30%;
+    padding-left: 130px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+.right_footer{
+    width: 60%;
+    display: flex;
+    padding: 0px 70px;
+    line-height: 27px;
+    gap: 50px;
+}
+.footer_content{
+    color: rgba(255, 255, 255, 0.897);
+    padding: 0px 40px;
+    font-size: 13px;
+    font-weight: 300;
+}
+.copyright{ 
+    padding-top:60px ;
+    text-align: center;
+    font-size: 13px;
+    color:#CDCDCD ;
+}
