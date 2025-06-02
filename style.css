@@ -150,6 +150,7 @@ body a{
 .Main_course{
     display: flex;
     margin: 30px 100px;
+    justify-content: center;
 
 }
 .course_box{
@@ -162,7 +163,7 @@ body a{
 }
 .course_box .mordern_img{
     transition: all .55s ease-in-out;
-    width: 300px;
+    width: 380px;
 }
 .Modern {
     overflow: hidden !important;
